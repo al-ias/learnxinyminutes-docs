@@ -42,3 +42,42 @@ tratta principalmene la sintassi e quindi esclude molti design pattern in voga.
 Visto che Solidity e Ethereum sono in continuo sviluppo, le funzionalità
 sperimentali o beta sono evidenziate e soggette a cambiamenti. Ogni Pull Request
 è ben accetta.
+
+# Lavorare con Redux e Metamask
+
+Uno dei modi più semplici di scrivere, distribuire e testare il codice Solidity
+è usare:
+
+1. [L'amibiente di svillupo online Remix](https://remix.ethereum.org/);
+2. [Il wallet Metamask](https://metamask.io/).
+
+Per cominciare, [scarica l'estensione per browser di Metamask](https://metamask.io/).
+
+A installazione completata, useremo Remix. Il codice qui sotto sarà
+pre-inizializzato, ma prima di addentrarci nel codice diamo un occhiata a
+qualche trucco su come iniziare ad usare Remix. Inizializza tutto [clickando su questo link](https://remix.ethereum.org/#version=soljson-v0.6.6+commit.6c089d02.js&optimize=false&evmVersion=null&gist=f490c0d51141dd0515244db40bbd0c17&runs=200).
+
+1. Scegli il compilatore per Solidity
+
+![Solidity-in-remix](../images/solidity/remix-solidity.png)
+
+2. Apri il file caricato su quel link
+
+![Solidity-choose-file](../images/solidity/remix-choose-file.png)
+
+3. Compila il file
+
+![Solidity-compile](../images/solidity/remix-compile.png)
+
+4. Fai il deploy
+
+![Solidity-deploy](../images/solidity/remix-deploy.png)
+
+5. Smanetta con gli smart contracts
+
+![Solidity-deploy](../images/solidity/remix-interact.png)
+
+Hai distribuito il tuo primo smart contract! Congratulazioni!
+
+Potrai testarlo e smanettare con le funzioni definite. Dai un occhiata ai
+commenti per vedere cosa fa ogni funzione.
